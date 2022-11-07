@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/signpainter');
+@import url(//db.onlinewebfonts.com/c/1ca5858bf2dc392b803a6eeea1c88490?family=SignPainter);
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body{
 /* ------------header---------- */
 #header{
     width: 100%;
-    height: 160vh; 
+    height: 125vh; 
     
 }
 .header-container{
@@ -92,14 +92,17 @@ nav ul li a{
 }
 .about-text p{
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 550;
 }
 .about-text h1{
     border-bottom: 10px solid #fbe004;
     height: auto;
+    font-size: 60px;
     display: flex;
     margin-left: 40%;
     justify-content: center;
+    padding-bottom: 10px;
+    
     
 }
 .about-heading{
