@@ -1,0 +1,102 @@
+@import url('https://fonts.cdnfonts.com/css/signpainter');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+                                                
+}
+body{
+    background: #fff;
+    color: black;
+    margin: 0;
+}
+/* ------------header---------- */
+#header{
+    width: 100%;
+    height: 160vh; 
+    
+}
+.header-container{
+    width: 100%;
+    height: 5%;
+    font-size: .8rem;
+    background-color: #fff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-repeat: repeat;
+    background-position: top left;
+    background-image: url(Assets/header-strip.png)
+}
+
+nav{
+    margin-top: 30px;
+    padding: 10px 5%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 10px solid #fbe004;
+    background-color: #fff;
+}
+.logo{
+    width: 220px;
+    padding-left: 0%;
+    display: inline-block;
+    height: auto;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin:10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    position: relative;
+    font-family: 'BERNIER Distressed', sans-serif;
+}
+.btn{
+    color: #fbe004;
+    background-color: black;
+    padding: 5px;
+}
+.slider{
+    width: 100%;
+    height: 400px;
+    border-bottom: 10px solid #fbe004;
+}
+.under-slider{
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    border-bottom: 10px solid #fbe004;
+}
+.about-container{
+    padding: 0px 100px;
+    border-bottom: 10px solid #fbe004;
+    display: flex;
+}
+.about-text h1, p{
+    font-family: 'SignPainter', sans-serif;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0 50px;
+}
+.about-text p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.about-text h1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid #fbe004;
+}
+.about-heading{
+    width: 300px;
+}
