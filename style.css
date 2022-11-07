@@ -111,7 +111,7 @@ nav ul li a{
     padding-bottom: 0.5em;
     background-repeat: repeat;
     background-position: top left;
-    background-image: url(Assets/header-strip.png)
+    background-image: url(Assets/header-strip.png);
 }
 footer{
     
@@ -139,4 +139,10 @@ footer ul li a{
     color: #a11c2f;
     border-radius: 50%;
     font-size: 14px;
+}
+.nyfta{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 40px;
 }
