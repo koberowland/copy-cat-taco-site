@@ -15,7 +15,9 @@ body{
     background: #fff;
     color: black;
     margin: 0;
+    max-height: 100vh;
     min-height: 100vh;
+    
     padding-bottom: 63px;
 }
 #header{
@@ -29,13 +31,19 @@ body{
     font-size: .8rem;
     background-color: #fff;
     padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.7em;
     background-repeat: repeat;
     background-position: top left;
-    background-image: url(Assets/header-strip.png)
+    background-image: url(Assets/header-strip.png);
+    z-index: 4;
 }
-
+.sticky-nav{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
 nav{
+    /* -----find way to change margin to 0px when you start to scroll down---- */
     margin-top: 30px;
     padding: 10px 5%;
     display: flex;
@@ -80,6 +88,7 @@ nav ul li a{
     justify-content: center;
 }
 .swiper{
+    margin-top: 151px;
     width: 100%;
     height: fit-content;
     
