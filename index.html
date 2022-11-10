@@ -18,7 +18,7 @@
     <div id="header">
         <div class="header-container">
             
-            <nav class="sticky-nav">
+            <nav id="sticky-nav">
                 <img src="Assets/Logo.png" class="logo" alt="">
                 <div class="menu-items">
                     <ul class="side-menu">
@@ -132,7 +132,16 @@
         },
         });
     </script>
+    <script>
+        // ------ this button makes the margin of sticky nav zero need to find a way to have it detect scrolling to change margin-----
+        document.querySelector(".btn").onclick = function(){
+            const nav = document.getElementById("sticky-nav");
 
+            nav.style.marginTop = "0";
+        }
+        
+        
+    </script>
     
     </body>
 </html>
