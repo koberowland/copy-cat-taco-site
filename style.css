@@ -97,6 +97,7 @@ nav ul li a{
     width: 100%;
     max-height: 550px;
 }
+/* -------fix margins to make it were the picture is not under slide show---- */
 .under-slider{
     padding: 0;
     width: 100%;

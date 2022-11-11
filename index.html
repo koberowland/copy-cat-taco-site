@@ -134,10 +134,20 @@
     </script>
     <script>
         // ------ this button makes the margin of sticky nav zero need to find a way to have it detect scrolling to change margin-----
-        document.querySelector(".btn").onclick = function(){
+        window.onscroll = function(){
             const nav = document.getElementById("sticky-nav");
-
-            nav.style.marginTop = "0";
+            const header = document.getElementById("header");
+            var rect = header.getBoundingClientRect();
+            console.log(nav.style)
+            if(rect.top != 0){
+                nav.style.marginTop = "0";
+                nav.style.border = "0px";
+            }
+            else{
+                nav.style.marginTop = "30px";
+                nav.style.borderBottom = "10px solid #fbe004";
+            }
+            
         }
         
         
