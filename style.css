@@ -1,8 +1,6 @@
 /* ------
 To do list
-1. make header sticky
-2. maker footer sticky
-3. make website responsive 
+1. make website responsive 
 */
 *{
     margin: 0;
@@ -41,6 +39,7 @@ body{
     position: fixed;
     top: 0;
     z-index: 10;
+    transition: linear .2s;
 }
 nav{
     /* -----find way to change margin to 0px when you start to scroll down---- */
@@ -53,7 +52,7 @@ nav{
     border-bottom: 10px solid #fbe004;
     background-color: #fff;
 }
-.logo{
+#logo{
     width: 280px;
     padding-top: 10px;
     padding-left: 0%;
